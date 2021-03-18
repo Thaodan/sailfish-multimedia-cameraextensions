@@ -1,0 +1,3 @@
+module org.sailfishos.multimedia.cameraextensions
+
+plugin sf_mulitmedia_cameraextensions_quickplugin

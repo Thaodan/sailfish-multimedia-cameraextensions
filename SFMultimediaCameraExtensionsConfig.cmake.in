@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+find_dependency(Qt5 "@QT_MIN_VERSION@" REQUIRED NO_MODULE COMPONENTS
+  Core
+  Multimedia
+  Quick)
+
+include("${CMAKE_CURRENT_LIST_DIR}/SFMultimediaCameraExtensionTargets.cmake")

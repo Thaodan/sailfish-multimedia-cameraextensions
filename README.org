@@ -1,0 +1,12 @@
+#+TITLE: Sailfish Multimedia Camera Helper Library
+#+LANGUAGE: english
+
+* Intro
+
+This is a small QML plugin to make working with the Qt Multimedia Camera easier
+on Sailfish OS.
+
+* Dependencies
++ Qt >= 5.6
+  + Core
+  + Multimedia with [[https://git.sailfishos.org/mer-core/qtmultimedia/commit/80f7ecabd342a4852d668c80901af36f8496b0e5][patch]]
